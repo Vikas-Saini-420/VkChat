@@ -1,0 +1,61 @@
+body{
+background-color: skyblue;
+}
+.room-container{
+display: block;
+margin: auto;
+max-width: 400px;
+padding: 0.2rem;
+width: 100%;
+border: 2px solid black;
+border-radius: 2rem;
+align-items: center;
+text-align: center;
+}
+.name {
+    color: brown;
+    font-size: 3rem;
+    font-family: cursive;
+    text-align: center;
+    padding: 0.2rem;
+}
+.room-container a{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.2rem;
+    text-align: center;
+    align-items: center;
+}
+.post-container{
+    display: block;
+    margin: 0.2rem auto auto auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.roomName{
+    background: none;
+    width: 100%;
+    color: brown;
+    margin: 1rem 0 auto auto;
+    border: 2px solid black;
+    border-radius: 2rem;
+    height: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.btn{
+    background: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 40%;
+    height: 2rem;
+    margin: 0 0.2rem;
+    text-align: center;
+}

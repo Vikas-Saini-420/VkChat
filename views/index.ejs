@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VkChat</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+  </head>
+  <body>
+    <div class="room-container">
+      <% Object.keys(rooms).forEach(room=>{ %>
+        <div class="name"><%= room %></div>
+        <a href="/<%= room %>">Join</a>
+     <% }) %>
+    </div>
+    <div class="post-container">
+      <form action="/room" method="POST">
+        <input class="roomName" type="text" name="room" required>
+        <button class="btn" type="submit">New Room</button>
+      </form>
+    </div>
+  
+  </body>
+</html>

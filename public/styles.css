@@ -1,0 +1,73 @@
+body{
+  background-color: #87ceeb;
+  background-image: url('/background-image.jpg');
+  background-size: cover;
+}
+.logo{
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+h1{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: none;
+  margin: auto;
+  height: 60vh;
+  padding: 2rem;
+  border: 2px solid black;
+  overflow-y: auto;
+  border-radius: 1rem;
+
+}
+.message{
+  display: block;
+  margin: auto;
+  width: 36%;
+  padding: 0.6rem;
+  margin: 1rem 0.7rem;
+  border: 2px solid black;
+}
+#send-container {
+  display: block;
+  margin: 0.3rem auto auto auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 700px; 
+  width: 100%;
+}
+#ipmessage{
+  background-color: aliceblue;
+ width: 88%;
+ border: 2px solid black;
+ border-radius: 0.5rem;
+ height: 34px;
+ font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left{
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+.btn{
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  width: 10%;
+  height: 34px;
+  margin: 0 0.2rem;
+}
